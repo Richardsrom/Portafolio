@@ -1,0 +1,7 @@
+
+.sobreMi__informacion {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    line-height: var(--separacion-texto);
+}

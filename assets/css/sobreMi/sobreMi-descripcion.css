@@ -1,0 +1,14 @@
+
+.sobreMi__descripcion {
+    font-size: 1rem;
+    font-weight: 200;
+    color: var(--color-texto);
+}
+
+@media (min-width:1024px) {
+
+    .sobreMi__descripcion {
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+}

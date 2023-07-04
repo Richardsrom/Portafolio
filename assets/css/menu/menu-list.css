@@ -1,0 +1,25 @@
+
+.menu__list {
+    display: flex;
+    list-style: none;
+}
+
+@media(max-width:1055px) {
+    
+    .menu__list {
+        display: none;
+        width: fit-content;
+        margin: 5px auto 0;
+        text-align: center;
+        transition: .5s;
+        opacity: 0;
+    }
+
+    .menu.active .menu__list {
+        opacity: 1;
+    }
+}
+
+.reveal {
+    display: block;
+}

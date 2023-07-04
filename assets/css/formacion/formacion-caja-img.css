@@ -1,0 +1,26 @@
+
+.formacion__caja-img {
+    margin-bottom: .5rem;
+}
+
+@media (min-width:768px) and (max-width:1023px){
+
+    .formacion__caja-img img {
+        width: 190px;
+    }
+}
+
+@media (min-width:1024) and (max-width:10407px) {
+
+    .formacion__caja-img {
+        height: 110px;
+    }
+    
+}
+
+@media (min-width:1408px) {
+
+    .formacion__caja-img {
+        height: 205.85px;
+    }
+}

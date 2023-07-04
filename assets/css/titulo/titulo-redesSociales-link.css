@@ -1,0 +1,17 @@
+
+.titulo__redesSociales-link {
+    text-decoration: none;
+    font-size: .875rem;
+    color: #4713ad;
+}
+
+.titulo__redesSociales-link:hover {
+    color: #925cfb;
+}
+
+@media (min-width:1024px) {
+
+    .titulo__redesSociales-link {
+        font-size: 1.1rem;
+    }
+}

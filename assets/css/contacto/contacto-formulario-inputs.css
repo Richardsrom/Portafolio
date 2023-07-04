@@ -1,0 +1,6 @@
+
+.contacto__formulario-inputs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}

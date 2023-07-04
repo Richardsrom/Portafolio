@@ -1,0 +1,24 @@
+
+.input__label {
+    position: absolute;
+    top: 1.375rem;
+    left: 0.5rem;
+    font-size: 1.2rem;
+    transition: all 0.25s;
+}
+  
+.input:not(:placeholder-shown) + .input__label,
+.input:focus + .input__label {
+    font-size: 0.875rem;
+    top: 0.25rem;
+    transition: all 0.25s;
+    color: #3503ec;
+}
+
+.input__textarea:not(:placeholder-shown) + .input__label,
+.input__textarea:focus + .input__label {
+    font-size: 0.875rem;
+    top: 0.25rem;
+    transition: all 0.25s;
+    color: #3503ec;
+}

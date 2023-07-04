@@ -1,0 +1,30 @@
+
+.input__msj-error {
+    display: none;
+}
+
+.contacto__formulario-input--invalid {
+    margin-bottom: 0.5rem;
+}
+  
+.contacto__formulario-input--invalid .input {
+    border: 1px solid var(--warning-color);
+    border-radius: 7px;
+}
+
+.contacto__formulario-input--invalid .input__textarea {
+    border: 1px solid var(--warning-color);
+    border-radius: 7px;
+}
+  
+.contacto__formulario-input--invalid .input__label {
+    color: var(--warning-color);
+}
+  
+  
+.contacto__formulario-input--invalid .input__msj-error {
+    color: var(--warning-color);
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}

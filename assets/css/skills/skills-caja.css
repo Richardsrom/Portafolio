@@ -1,0 +1,21 @@
+
+.skills__caja {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: var(--color-blanco);
+    transition: transform .3s ease;
+
+
+}
+
+.skills__caja ul {
+    list-style: none;
+    padding: 2rem;
+}
+
+.skills__caja:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}

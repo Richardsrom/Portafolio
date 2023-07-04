@@ -1,0 +1,14 @@
+
+.formacion__caja-descripcion {
+    font-size: .9rem;
+    font-weight: 200;
+    padding-top: .175rem;
+}
+
+@media (min-width:1024px) {
+    
+    .formacion__caja-descripcion {
+        font-size: 1.5rem;
+        
+    }
+}

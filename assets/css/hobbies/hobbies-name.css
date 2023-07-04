@@ -1,0 +1,13 @@
+
+.hobbies__name {
+    font-size: .925rem;
+    font-weight: 300;
+    letter-spacing: .055rem;
+}
+
+@media (min-width:1024px) {
+    .hobbies__name {
+        font-size: 1.5rem;
+        margin-top: .725rem;
+    }
+}

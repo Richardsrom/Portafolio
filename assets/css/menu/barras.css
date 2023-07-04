@@ -1,0 +1,19 @@
+
+.bars {
+    display: none;
+}
+
+@media(max-width:1055px) {
+
+    .bars {
+        display: block;
+        cursor: pointer;
+    }
+
+    .bars__icon {
+        color: #ffffff;
+        width: 18px;
+        height: 21px;
+    }
+    
+}

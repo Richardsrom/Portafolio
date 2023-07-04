@@ -1,0 +1,19 @@
+
+.input {
+    border: none;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ae9ee7;
+    padding: 1.375rem 0.5rem 0.5rem;
+    height: 3.25rem;
+    width: 100%;
+}
+
+.input::placeholder {
+    visibility: hidden;
+    color: #00000000;
+}
+  
+.input:focus {
+    outline: none;
+    border-bottom: 1px solid #001eff;
+}

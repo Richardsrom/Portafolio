@@ -1,0 +1,16 @@
+
+.formacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 2rem;
+    background: var(--backgroud-sections);
+}
+
+@media (min-width:1024px) {
+
+    .formacion {
+        padding: 1rem 1rem 3rem;
+    }
+}

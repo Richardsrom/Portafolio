@@ -1,0 +1,14 @@
+
+.experiencia__info-subtitulo {
+    font-size: .9rem;
+    font-weight: 500;
+    letter-spacing: .009rem;
+    color: var(--color-xp-texto);
+}
+
+@media (min-width:1024px) {
+    
+    .experiencia__info-subtitulo {
+        font-size: 1.3rem;
+    }
+}

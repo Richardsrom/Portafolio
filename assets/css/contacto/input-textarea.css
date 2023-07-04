@@ -1,0 +1,19 @@
+
+.input__textarea {
+    border: none;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ae9ee7;
+    padding: 1.375rem 0.5rem 0.5rem;
+    width: 100%;
+    resize: none;
+}
+
+.input__textarea::placeholder {
+    visibility: hidden;
+    color: #00000000;
+}
+  
+.input__textarea:focus {
+    outline: none;
+    border-bottom: 1px solid #001eff;
+}

@@ -1,0 +1,14 @@
+
+.sobreMi__titulo {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-top: 1rem;
+    color: var(--color-titulo-secciones);
+}
+
+@media (min-width:1024px) {
+
+    .sobreMi__titulo {
+        font-size: 2.4rem;
+    }
+}

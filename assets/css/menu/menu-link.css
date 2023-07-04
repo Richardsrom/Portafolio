@@ -1,0 +1,23 @@
+
+.menu__link {
+    display: block;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 10px 25px;
+    transition: .2s;
+    margin: 0 5px;
+    text-decoration: none;
+    transition: .5s;
+    overflow: hidden;
+}
+
+.menu__link:hover {
+    color: #3ef059;
+}
+
+@media(max-width:1055px) {
+    
+    .menu__link {
+        margin-bottom: 20px;
+    }
+}

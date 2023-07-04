@@ -1,0 +1,15 @@
+
+.experiencia__proyectos {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    width: 90%;
+}
+
+@media (min-width:1024px) {
+
+    .experiencia__proyectos {
+        gap: 7rem;
+    }
+    
+}

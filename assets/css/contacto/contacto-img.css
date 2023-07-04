@@ -1,0 +1,11 @@
+
+.contacto__img {
+    height: 90%;
+}
+
+@media (min-width:1024px) and (max-width:1407px){
+
+    .contacto__img {
+        height: 70%;
+    }
+}

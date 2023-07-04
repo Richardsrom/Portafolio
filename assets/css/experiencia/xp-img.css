@@ -1,0 +1,27 @@
+
+.experiencia__img {
+    margin-bottom: 1rem;
+}
+
+@media (min-width:768px) and (max-width:1023px){
+
+    .experiencia__img {
+        height: 325px;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1407px) {
+    
+    .experiencia__img {
+        height: 400px;
+        width: 630px;
+    }
+}
+
+@media (min-width:1408px) {
+
+    .experiencia__img {
+        height: 450px;
+        width: 950px;
+    }
+}

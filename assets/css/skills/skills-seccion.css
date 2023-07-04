@@ -1,0 +1,12 @@
+
+.skills__seccion {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width:1024px) {
+    .skills__seccion {
+        justify-content: space-around;
+        
+    }
+}

@@ -1,0 +1,27 @@
+
+.experiencia__info-btnD {
+    border: .5px solid var(--color-border-btn);
+    padding: .5rem;
+    border-radius: 6px;
+    color: var(--color-blanco);
+    background: var(--backgroud-color-btnD);
+}
+
+.experiencia__info-btnD:hover {
+    background: #1b1bd0;
+    transform: scale(1.1);
+}
+
+@media (min-width:1024px) and (max-width:1407px) {
+    
+    .experiencia__info-btnD {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width:1408px) {
+
+    .experiencia__info-btnD {
+        font-size: 1.3rem;
+    }
+}

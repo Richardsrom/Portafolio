@@ -1,0 +1,23 @@
+
+.titulo__descripcion {
+    font-size: .9rem;
+    font-weight: 200;
+    color: var(--color-titulo);
+    text-align: start;
+    line-height: var(--separacion-texto);
+}
+
+@media (min-width: 768px) and (max-width:1023px) {
+
+    .titulo__descripcion {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width:1024px) {
+
+    .titulo__descripcion {
+        font-size: 1.4rem;
+        line-height: 1.925rem;
+    }
+}

@@ -1,0 +1,14 @@
+
+.contacto__contenedor-img {
+    display: none;
+}
+
+
+@media (min-width:1024px) {
+    
+    .contacto__contenedor-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

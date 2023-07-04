@@ -1,0 +1,15 @@
+
+.experiencia__info-titulo {
+    font-size: 1.125rem;
+    font-weight: 600;
+    letter-spacing: .009rem;
+    color: var(--color-xp-texto);
+
+}
+
+@media (min-width:1024px) {
+    
+    .experiencia__info-titulo {
+        font-size: 1.575rem;
+    }
+}

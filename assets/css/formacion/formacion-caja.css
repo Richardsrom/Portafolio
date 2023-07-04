@@ -1,0 +1,22 @@
+
+.formacion__caja {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: var(--backgroud-cajas);
+    transition: transform .3s ease;
+
+
+}
+
+.formacion__caja ul {
+    list-style: none;
+    padding: 2rem;
+}
+
+@media (min-width: 768px) {
+    .formacion__caja ul {
+        padding: 1rem;
+    }
+
+}

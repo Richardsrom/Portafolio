@@ -1,0 +1,13 @@
+
+.formacion__seccion {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width:1024px) {
+    
+    .formacion__seccion {
+        width: 30%;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,11 @@
+
+.hobbies__icon-brand {
+    height: 1.5rem;
+}
+
+@media (min-width:1024px) {
+
+    .hobbies__icon-brand {
+        height: 2.679rem;
+    }
+}

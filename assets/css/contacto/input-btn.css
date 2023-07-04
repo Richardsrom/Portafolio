@@ -1,0 +1,14 @@
+
+.input__btn {
+    width: 50%;
+    height: 2.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border: .5px solid #ae9ee7;
+    background: #2965dc;
+    color: var(--color-blanco);
+}
+
+.input__btn:hover {
+    background: #133a87;
+}

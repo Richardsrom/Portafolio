@@ -1,0 +1,21 @@
+
+.hobbies__caja {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: var(--backgroud-cajas);
+    transition: transform .3s ease;
+
+
+}
+
+.hobbies__caja ul {
+    list-style: none;
+    padding: 2rem;
+}
+
+.hobbies__caja:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
