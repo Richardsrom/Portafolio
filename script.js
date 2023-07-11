@@ -72,7 +72,7 @@ const tipoDeErrores = [ "valueMissing", "typeMismatch", "patternMismatch", "cust
 
 const mensajesDeError = {
     nombre: {
-        valueMissing: "El campo nombre no puede estar vacio pendejo",
+        valueMissing: "El campo nombre no puede estar vacio",
         patternMismatch: "Debe contener min 5 y max 30 caracteres"
     },
     email: { 
