@@ -18,8 +18,9 @@
     .menu.active .menu__list {
         opacity: 1;
     }
+
+    .reveal {
+        display: block;
+    }
 }
 
-.reveal {
-    display: block;
-}
